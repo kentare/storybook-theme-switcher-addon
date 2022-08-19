@@ -1,4 +1,17 @@
-.storybook-button {
+:root {
+  --buttonBackgroundColor: #1ea7fd;
+  --buttonTextColor: white;
+}
+[data-theme="dark"] {
+  --buttonBackgroundColor: black;
+  --buttonTextColor: white;
+}
+[data-theme="light"] {
+  --buttonBackgroundColor: yellow;
+  --buttonTextColor: black;
+}
+
+[date-tj] .storybook-button {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
@@ -8,8 +21,8 @@
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+  color: var(--buttonTextColor);
+  background-color: var(--buttonBackgroundColor);
 }
 .storybook-button--secondary {
   color: #333;
