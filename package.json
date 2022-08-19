@@ -13,8 +13,8 @@
   },
   "author": "Kent Are Torvik <kentaretorvik@gmail.com>",
   "license": "MIT",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/cjs/preset.js",
+  "module": "dist/esm/preset.js",
   "types": "dist/ts/index.d.ts",
   "files": [
     "dist/**/*",
