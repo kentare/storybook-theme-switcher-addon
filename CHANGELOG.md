@@ -1,3 +1,19 @@
+# v0.0.4 (Fri Aug 19 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: move preset.js to src (kentaretorvik@gmail.com)
+- fix: remove postinstall script (kentaretorvik@gmail.com)
+- feat: add theme addon (kentaretorvik@gmail.com)
+- project setup (kentaretorvik@gmail.com)
+- Initial commit (kentaretorvik@gmail.com)
+
+#### Authors: 1
+
+- [@kentare](https://github.com/kentare)
+
+---
+
 # v0.0.3 (Fri Aug 19 2022)
 
 #### ⚠️ Pushed to `main`
